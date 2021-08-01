@@ -19,10 +19,6 @@ public class PriceServiceImpl implements IPriceService {
         this.repository = repository;
     }
 
-    public List<Price> findPrices(String productId, int brandId, LocalDateTime date) {
-        return repository.findPrices(productId, brandId, date);
-    }
-
     @Override
     public List<Price> findByProductId(String productId, int brandId, LocalDateTime date) {
         return repository.findByProductId(productId)

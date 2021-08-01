@@ -12,9 +12,10 @@ import java.util.stream.Collectors;
 @Service
 public class PriceServiceImpl implements IPriceService {
 
-    @Autowired
+
     private final IPriceRepository repository;
 
+    @Autowired
     public PriceServiceImpl(IPriceRepository repository) {
         this.repository = repository;
     }

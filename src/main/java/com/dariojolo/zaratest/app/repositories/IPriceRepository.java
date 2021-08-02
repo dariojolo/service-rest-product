@@ -5,7 +5,8 @@ import com.dariojolo.zaratest.app.Entities.Price;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface IPriceRepository extends JpaRepository<Price, Long> {
-    List<Price> findByProductId(String productId);
+    Optional<List<Price>> findByProductId(String productId);
 }

@@ -1,4 +1,4 @@
-package com.dariojolo.zaratest.app.Entities;
+package com.dariojolo.zaratest.app.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

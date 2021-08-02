@@ -1,4 +1,4 @@
-package com.dariojolo.zaratest.app.exceptions;
+package com.dariojolo.zaratest.app.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

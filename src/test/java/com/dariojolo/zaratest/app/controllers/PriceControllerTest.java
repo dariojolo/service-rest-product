@@ -1,7 +1,6 @@
 package com.dariojolo.zaratest.app.controllers;
 
-import com.dariojolo.zaratest.app.Controllers.PriceController;
-import com.dariojolo.zaratest.app.Entities.PriceDTO;
+import com.dariojolo.zaratest.app.entities.PriceDTO;
 import com.dariojolo.zaratest.app.services.PriceServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

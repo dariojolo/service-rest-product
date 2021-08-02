@@ -1,6 +1,6 @@
 package com.dariojolo.zaratest.app.services;
 
-import com.dariojolo.zaratest.app.Entities.PriceDTO;
+import com.dariojolo.zaratest.app.entities.PriceDTO;
 
 import java.time.LocalDateTime;
 import java.util.List;

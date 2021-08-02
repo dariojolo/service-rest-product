@@ -1,7 +1,7 @@
 package com.dariojolo.zaratest.app.services;
 
-import com.dariojolo.zaratest.app.Entities.Price;
-import com.dariojolo.zaratest.app.Entities.PriceDTO;
+import com.dariojolo.zaratest.app.entities.Price;
+import com.dariojolo.zaratest.app.entities.PriceDTO;
 import com.dariojolo.zaratest.app.repositories.IPriceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

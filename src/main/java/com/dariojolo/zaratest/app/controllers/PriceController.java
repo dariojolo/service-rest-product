@@ -1,6 +1,6 @@
-package com.dariojolo.zaratest.app.Controllers;
+package com.dariojolo.zaratest.app.controllers;
 
-import com.dariojolo.zaratest.app.Entities.PriceDTO;
+import com.dariojolo.zaratest.app.entities.PriceDTO;
 import com.dariojolo.zaratest.app.services.PriceServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

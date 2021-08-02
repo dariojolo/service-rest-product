@@ -1,7 +1,7 @@
 package com.dariojolo.zaratest.app.repositories;
 
 
-import com.dariojolo.zaratest.app.Entities.Price;
+import com.dariojolo.zaratest.app.entities.Price;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

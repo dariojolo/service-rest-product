@@ -1,7 +1,7 @@
 package com.dariojolo.zaratest.app.repositories;
 
-import com.dariojolo.zaratest.app.Entities.Price;
-import com.dariojolo.zaratest.app.Entities.PriceDTO;
+import com.dariojolo.zaratest.app.entities.Price;
+import com.dariojolo.zaratest.app.entities.PriceDTO;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
